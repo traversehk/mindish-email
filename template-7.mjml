@@ -30,7 +30,8 @@
 	          <h2>{{ time }}</h2>
 	          <div>{{ body1 }}</div>
 	        </mj-text>
-	        <mj-text mj-class="padded">
+	        <mj-button mj-class="b1 padded" href="{{button1Link}}"> {{button1}}</mj-button>
+	        <mj-text>
 	          <small>{{smalltext}}</small>
 	        </mj-text>
 	      </mj-column>

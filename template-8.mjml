@@ -22,7 +22,7 @@
 	        <mj-image mj-class="logo" />
 	      </mj-column>
 	    </mj-section>
-	    <mj-section mj-class="c1 padded">
+	    <mj-section mj-class="c2 padded">
 	      <mj-column>
 	        <mj-text>
 	          <h1>{{ heading1 }}</h1>
@@ -31,6 +31,19 @@
 	          <div>{{ body1 }}</div>
 	        </mj-text>
 	        <mj-text mj-class="padded">
+	          <small>{{smalltext}}</small>
+	        </mj-text>
+	      </mj-column>
+	    </mj-section>
+	    <mj-section mj-class="c1 padded">
+	      <mj-column>
+	        <mj-text>
+	          <h1>{{ heading1 }}</h1>
+	          <h3>{{ subheading1 }}</h3>
+	          <div>{{ body1 }}</div>
+	        </mj-text>
+	        <mj-button mj-class="b1" href="{{button1Link}}"> {{button1}}</mj-button>
+	        <mj-text>
 	          <small>{{smalltext}}</small>
 	        </mj-text>
 	      </mj-column>
