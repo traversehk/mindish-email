@@ -10,9 +10,12 @@ Templates use MJML as responsive email framework.
 ## Steps
 1. Open MJML Compilation tool
 2. Open Mindbody > Manager Tools > Auto Emails
-3. Copy all the MJML codes from the [email templates](https://github.com/traverseworks/mindish-email) to the MJML Compilation Tool. A visible email layout should appear in the preview panel
-4. Find and Replace all {{variable}} into the text / URL. 
-5. When editing the textm you can create newline by inserting <br/>, or insert the {Replace Phrase} from Mindbody Auto Email
-7. Copy HTML on the top-right column
-8. In Mindbody > Manager Tools > Auto Emails, click "HTML" in the edit panel. Replace everything by pasting all the HTML. Click "Updated"
-9. Now you should good to go with testing.
+3. Copy all the MJML codes from the [email templates](https://github.com/traverseworks/mindish-email) to the MJML Compilation Tool. The email layout should appear in the preview panel
+4. Find and Replace all `{{variable}}`. Do not edit anything else.
+5. To create a new paragraph. insert `<br>` to create newline.
+6. To inject Mindbody Replace Phrase, you can first find the list of the Replace Phrase from the Mindbody > Manager Tools > Auto Emails, and insert the phrase into the content
+7. !!IMPORTANT - for every replace phrase, you must replace the `<` to `&lt;` and `>` to `&gt;`
+for example, to inject `<CLIENTADDRESS>`, you should put `&lt;CLIENTADDRESS&gt;`
+7. Click `View HTML` Copy HTML on the top-right column
+8. In Mindbody > Manager Tools > Auto Emails, click `HTML` in the email editor. Replace everything by pasting the HTML copied in step7. Click "Update"
+9. Now it should be good to go.
