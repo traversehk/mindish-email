@@ -5,6 +5,7 @@ Templates use MJML as responsive email framework.
 ## Required MJML Compilation Tool
 1. [MJML Playground](https://mjml.io/try-it-live/)
 2. Or, [MJML App](https://mjmlio.github.io/mjml-app/)
+3. Mindbody > Manager Tools > Auto Emails
 
 ## Steps
 1. Open MJML Compilation tool
