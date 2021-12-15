@@ -19,3 +19,21 @@ for example, to inject `<CLIENTADDRESS>`, you should put `&lt;CLIENTADDRESS&gt;`
 7. Click `View HTML` Copy HTML on the top-right column
 8. In Mindbody > Manager Tools > Auto Emails, click `HTML` in the email editor. Replace everything by pasting the HTML copied in step7. Click "Update"
 9. Now it should be good to go.
+
+## Template Screenshot
+#### Template 1
+![Template 1](https://github.com/traverseworks/mindish-email/blob/main/screenshot/template-1-desktop.png)
+#### Template 2
+![Template 1](https://github.com/traverseworks/mindish-email/blob/main/screenshot/template-2-desktop.png)
+#### Template 3
+![Template 1](https://github.com/traverseworks/mindish-email/blob/main/screenshot/template-3-desktop.png)
+#### Template 4
+![Template 1](https://github.com/traverseworks/mindish-email/blob/main/screenshot/template-4-desktop.png)
+#### Template 5
+![Template 1](https://github.com/traverseworks/mindish-email/blob/main/screenshot/template-5-desktop.png)
+#### Template 6
+![Template 1](https://github.com/traverseworks/mindish-email/blob/main/screenshot/template-6-desktop.png)
+#### Template 7
+![Template 1](https://github.com/traverseworks/mindish-email/blob/main/screenshot/template-7-desktop.png)
+#### Template 8
+![Template 1](https://github.com/traverseworks/mindish-email/blob/main/screenshot/template-8-desktop.png)
