@@ -1,0 +1,73 @@
+	
+	<mjml>
+  <mj-head>
+    <mj-title>Mindish</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Helvetica Neue, Helvetica, Arial, Sans-serif" font-size="14px" line-height="130%" />
+      <mj-section padding=0 />
+      <mj-text align="center" />
+      <mj-image fluid-on-mobile="true" padding=0 />
+      <mj-class name="logo" fluid-on-mobile="false" padding="8px" width="120px" src="https://mindish.s3.ap-southeast-1.amazonaws.com/mindism-logo%402x.png" />
+      <mj-class name="b1" background-color="#B5B51C" border-radius="99px" font-size="16px" />
+      <mj-class name="b2" background-color="none" border="1px solid #000" border-radius="99px" font-size="12px" />
+      <mj-class name="c1" background-color="#EAE4E4" />
+      <mj-class name="c2" background-color="#E3E5DA" />
+      <mj-class name="c3" background-color="#B5B51C" />
+      <mj-class name="padded" padding="24px 12px" />
+    </mj-attributes>
+    <mj-style>h1,h2,h3,h4{margin: 0 0 16px 0; font-weight:400; line-height: 120%} h1,h2,h4{color: #B5B51C} h1{font-weight: 300} h2{font-family: "Playfair Display", "Times New Roman", Times, serif; } h3{font-size:18px} a{color: #000 !important} .social{text-decoration: none; padding: 8px 16px; display:inline-block }</mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-image mj-class="logo" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="c2 padded">
+      <mj-column>
+        <mj-text>
+          <h1>We look forward to
+welcoming you soon</h1>
+          <h3>Just a reminder that you have your xxx class on</h3>
+          <h2>Monday 01 January 2022</h2>
+        </mj-text>
+        <mj-button mj-class="b1 padded" href="{{button1Link}}">See Schedule</mj-button>
+        <mj-text>
+          <small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ul
+suscipit lobortis nisl ut aliquip Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum
+tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+in hen in praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</small>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+		<mj-section mj-class="c1 padded">
+      <mj-column>
+        <mj-text>
+          <h3>Feeling inspired to keep going? <br/>
+See what other classes we have on at the moment.</h3>
+        </mj-text>
+        <mj-button mj-class="b1" href="{{button1Link}}">See Schedule</mj-button>
+        <mj-text>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="c2">
+      <mj-column>
+        <mj-text>
+          <a class="social" href="https://instagram.com/mindish/">Instagram</a>
+          <a class="social" href="https://linkedin.com/company/mindish">Linkedin</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="padded">
+      <mj-column>
+        <mj-text>
+          <b>mindish</b><br />15F, 8Wyndham Street<br />Central, Hong Kong<br /><br />
+          <a href="https://www.mindish.com/help">Help & Contact</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

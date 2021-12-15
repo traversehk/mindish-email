@@ -1,0 +1,75 @@
+<mjml>
+  <mj-head>
+    <mj-title>Mindish</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Helvetica Neue, Helvetica, Arial, Sans-serif" font-size="14px" line-height="130%" />
+      <mj-section padding=0 />
+      <mj-text align="center" />
+      <mj-image fluid-on-mobile="true" padding=0 />
+      <mj-class name="logo" fluid-on-mobile="false" padding="8px" width="120px" src="https://mindish.s3.ap-southeast-1.amazonaws.com/mindism-logo%402x.png" />
+      <mj-class name="b1" background-color="#B5B51C" border-radius="99px" font-size="16px" />
+      <mj-class name="b2" background-color="none" border="1px solid #000" border-radius="99px" font-size="12px" />
+      <mj-class name="c1" background-color="#EAE4E4" />
+      <mj-class name="c2" background-color="#E3E5DA" />
+      <mj-class name="c3" background-color="#B5B51C" />
+      <mj-class name="padded" padding="24px 12px" />
+    </mj-attributes>
+    <mj-style>h1,h2,h3,h4{margin: 0 0 16px 0; font-weight:400; line-height: 120%} h1,h2,h4{color: #B5B51C} h1{font-weight: 300} h2{font-family: "Playfair Display", "Times New Roman", Times, serif; } h3{font-size:18px} a{color: #000 !important} .social{text-decoration: none; padding: 8px 16px; display:inline-block }</mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-image mj-class="logo" />
+        <mj-image src="https://via.placeholder.com/600x400.jpg?text={{image1}}600x400px" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="c1 padded">
+      <mj-column >
+        <mj-text>
+          <h1>{{heading1}}</h1>
+          <h3>{{subheading1}}</h3>
+          <div>{{body1}}</div>
+        </mj-text>
+        <mj-button mj-class="b1" href="{{button1Link}}">{{button1}}</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="c2">
+      <mj-column width="40%" vertical-align="middle">
+        <mj-image src="https://via.placeholder.com/300x375.jpg?text={{image2}}-300x375" />
+      </mj-column>
+      <mj-column width="60%" mj-class="padded" vertical-align="middle">
+        <mj-text>
+          <div>{{body2}}</div>
+        </mj-text>
+        <mj-button mj-class="b1" href="{{button2Link}}">{{button2}}</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="c3">
+      <mj-column width="60%" mj-class="padded" vertical-align="middle">
+        <mj-text>
+          <div>{{body3}}</div>
+        </mj-text>
+        <mj-button mj-class="b1" background-color="#E3E5DA" href="{{button3Link}}">{{button3}}</mj-button>
+      </mj-column>
+      <mj-column width="40%" vertical-align="middle">
+        <mj-image src="https://via.placeholder.com/300x375.jpg?text={{image3}}-300x375" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="c2">
+      <mj-column>
+        <mj-text>
+          <a class="social" href="https://instagram.com/mindish/">Instagram</a>
+          <a class="social" href="https://linkedin.com/company/mindish">Linkedin</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="padded">
+      <mj-column>
+        <mj-text>
+          <b>mindish</b><br />15F, 8Wyndham Street<br />Central, Hong Kong<br /><br />
+          <a href="https://www.mindish.com/help">Help & Contact</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
